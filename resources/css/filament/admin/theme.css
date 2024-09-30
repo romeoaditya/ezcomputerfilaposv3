@@ -1,0 +1,18 @@
+@import "/vendor/filament/filament/resources/css/theme.css";
+
+@config 'tailwind.config.js';
+
+.fi-simple-layout {
+    @apply bg-custom-image;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fi-logo {
+    display: none;
+}
+.fi-simple-main {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    background-image: none !important;
+    backdrop-filter: blur(10px) !important;
+}
